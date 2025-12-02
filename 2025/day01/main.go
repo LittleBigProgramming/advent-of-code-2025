@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("Part 2:", part2(lines))
 }
 
-// Number of times dial ends at 0 after reach rotation.
+// Number of times dial ends at 0 after each rotation.
 func part1(lines []string) int {
 	position := 50
 	timesPassedZero := 0
